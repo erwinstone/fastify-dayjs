@@ -1,0 +1,29 @@
+{
+	"name": "fastify-dayjs",
+	"version": "1.0.0",
+	"description": "Fastify plugin to add dayjs support",
+	"main": "dayjs.js",
+	"types": "dayjs.d.ts",
+	"repository": "git@github.com:erwinstone/fastify-dayjs.git",
+	"author": "Erwin Stone <erwinstone@pm.me>",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/erwinstone/fastify-dayjs/issues"
+	},
+	"homepage": "https://github.com/erwinstone/fastify-dayjs#readme",
+	"keywords": [
+		"fastify",
+		"dayjs",
+		"fastify-dayjs"
+	],
+	"dependencies": {
+		"dayjs": "^1.11.4",
+		"fastify-plugin": "^4.0.0"
+	},
+	"devDependencies": {
+		"fastify": "^4.3.0"
+	},
+	"publishConfig": {
+		"access": "public"
+	}
+}
