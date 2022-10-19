@@ -38,6 +38,8 @@ import 'dayjs/plugin/weekday'
 
 declare const fastifyDayjs: FastifyPluginCallback
 
+export { dayjs }
+
 export default fastifyDayjs
 
 declare module 'fastify' {

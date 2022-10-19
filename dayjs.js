@@ -82,3 +82,5 @@ module.exports = fp(fastifyDayjs, {
 	fastify: '4.x',
 	name: 'fastify-dayjs',
 })
+
+module.exports.dayjs = dayjs
