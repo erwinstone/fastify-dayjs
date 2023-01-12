@@ -1,6 +1,6 @@
 {
 	"name": "fastify-dayjs",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"description": "Fastify plugin to add dayjs support",
 	"main": "dayjs.js",
 	"types": "dayjs.d.ts",
@@ -17,11 +17,11 @@
 		"fastify-dayjs"
 	],
 	"dependencies": {
-		"dayjs": "^1.11.5",
-		"fastify-plugin": "^4.3.0"
+		"dayjs": "^1.11.7",
+		"fastify-plugin": "^4.5.0"
 	},
 	"devDependencies": {
-		"fastify": "^4.9.2"
+		"fastify": "^4.11.0"
 	},
 	"publishConfig": {
 		"access": "public"
